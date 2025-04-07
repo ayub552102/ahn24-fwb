@@ -131,6 +131,8 @@ h2{
     justify-content: center;
 }
 footer{
+    position: absolute;
+    bottom: 0;
     background-color: hwb(17 14% 79%);
     width: 100%;
     height: auto;
