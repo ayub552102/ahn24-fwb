@@ -7,12 +7,16 @@
 html,body{
     min-width: 200px;
     max-width: 100%;
+}
+
+body{
     height: 100%;
 }
-main{
-background-color: darkgray;
-padding: 7px;
-height:fit-content;
+
+ main{
+    position: relative;
+    background-color: darkgray;
+    padding: 7px;
 }
 nav ul li>a{
     text-decoration: none;
@@ -131,7 +135,7 @@ h2{
     justify-content: center;
 }
 footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     background-color: hwb(17 14% 79%);
     width: 100%;
@@ -150,7 +154,8 @@ footer{
     display: inline-block;
     box-shadow: 3px 0px 6px 0px rgb(196, 17, 17);
     width: auto;
-    background: rgb(121, 244, 96)
+    background: rgb(121, 244, 96);
+    padding: 8px;
 }
 .l-tv-container{
     display: flex;
@@ -159,7 +164,7 @@ footer{
 }
 .tv-content{
     display: grid;
-    grid-template-columns: repeat(3,150px);
+    grid-template-columns: repeat(3,200px);
 }
 @media(max-width:700px) {
     .tv-content{
