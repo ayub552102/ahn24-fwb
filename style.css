@@ -17,7 +17,6 @@ body{
  main{
     background-color: darkgray;
     padding: 7px;
-    height: 100%;
 }
 nav ul li>a{
     text-decoration: none;
@@ -143,6 +142,7 @@ h2{
     text-align: center;
     color: aliceblue;
     padding: 5px;
+    overflow: hidden;
 }
 .f-content{
     margin: 15px;
