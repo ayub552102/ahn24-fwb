@@ -11,11 +11,14 @@ html,body{
 
 body{
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
 }
 
  main{
     background-color: darkgray;
     padding: 7px;
+    height: 100%;
 }
 nav ul li>a{
     text-decoration: none;
@@ -89,9 +92,11 @@ button:hover{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 400px;
 }
 article{
     margin: 7px;
+
 }
 
 @media (max-width:700px){
@@ -131,15 +136,17 @@ h2{
 .Breaking-news{
     display: flex;
     justify-content: center;
+    height: 300px;
 }
 
-a-footer{
+.a-footer{
     background-color: hwb(17 14% 79%);
     width: 100%;
-    height: auto;
+    height:200px;
     text-align: center;
     color: aliceblue;
     padding: 5px;
+    flex:1.5
 }
 .f-content{
     margin: 15px;
@@ -158,6 +165,7 @@ a-footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 320px;
 }
 .tv-content{
     display: grid;
