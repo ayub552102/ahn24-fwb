@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-html{
+html,body{
     min-width: 200px;
     max-width: 100%;
 }
@@ -133,15 +133,13 @@ h2{
     justify-content: center;
 }
 
-.a-footer{
+a-footer{
     background-color: hwb(17 14% 79%);
     width: 100%;
     height: auto;
     text-align: center;
     color: aliceblue;
     padding: 5px;
-    position: absolute;
-    bottom: 0;
 }
 .f-content{
     margin: 15px;
