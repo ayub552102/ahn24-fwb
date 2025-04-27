@@ -9,14 +9,21 @@
     <link rel="shortcut icon" href="ahn-logo/ahn-logo.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-       
+    <header class="ahn-hdr">
+    <img src="ahn-logo/ahn-logo.png" alt="AHN-LOGO"class="ahn-logo-pic">
+     <h2 class="ahn-hdr-lebel">AHN_Media_link</h2>
     </header>
     <nav>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Media</a></li>
-            <li><a href="">About</a></li>
+            <li class="h-btn"><a href="">Home</a></li>
+            <li class="l-btn"><a href="">Media<span class="m-downicon">&#x2335;</span></a>
+            <ul class="s-menu-link">
+                <li><a href="#l-tv-container">live-tv</a></li>
+                <li><a href="#Breaking-news">live-news</a></li>
+                <li><a href="">Product</a></li>
+            </ul>
+        </li>
+            <li class="l-btn"><a href="">About</a></li>
             <div class="search-area">
                 <label for="search-box"class="s-bx-label"><input type="search" name="" id="search-box"class="search-item"placeholder="type here..."></label>
                 <button type="button"class="s-btn">Search</button>
@@ -24,52 +31,63 @@
         </ul>
     </nav>
 <main>
-        <div  class="f-p-title-box">
-            <h2 style="border-bottom: 1px solid gray;display: inline-block;padding: 8px;" class="f-p-label">Family-photo-album:</h2>
-        </div>
+    <div  class="f-p-title-box">
+        <h4 class="f-p-label">Photo-album:</h4>
+    </div>
 <div class="p-s-container">
-<section class="f-photo">
-    <article class="img-box1"><img class="f-img"src="images/IMG_20240829_163006_723.jpg" alt=""></article>
-    <article class="img-box2"><img class="f-img"src="images/IMG_20250110_113153_652.jpg" alt=""></article>
-    <article class="img-box3"><img class="f-img"src="images/IMG_20250228_085005_015.jpg" alt=""></article>
+<section class="f-photo"id="f-photo">
+<article class="img-box-row"><img class="f-img"src="images/20220504_133148.jpg" alt=""></article>
+<article class="img-box-row"><img class="f-img"src="images/IMG_20241117_155126_850.jpg" alt=""></article>
+<article class="img-box-row"><img class="f-img"src="images/IMG_20250110_065544_821.jpg" alt=""></article>
+<article class="img-box-row"><img class="f-img"src="images/IMG_20250228_084405_153.jpg" alt=""></article>
 </section>
 </div>
-    <h2>Bangla-news:</h2>
-<section class="Breaking-news">
-    <div class="news-container">
-        <article class="news-p-row"><a href="https://www.prothomalo.com"target="_blank"><img class="news-photo"  src="news-p-photo/prothom-alo.PNG" alt=""></a></article>
-        <article class="news-p-row"><a href="https://www.bd-pratidin.com"target="_blank"><img class="news-photo"  src="news-p-photo/bd-pratidin.com.jpg" alt=""></a></article>
-        <article class="news-p-row"><a href="https://dailynayadiganta.com"target="_blank"><img class="news-photo"  src="news-p-photo/dailynayadiganta.com.jpg" alt=""></a></article>
-        <article class="news-p-row"><a href="https://www.ittefaq.com.bd"target="_blank"><img class="news-photo"  src="news-p-photo/ittefaq.com.bd.jpg" alt=""></a></article>
-        <article class="news-p-row"><a href="https://www.jugantor.com"target="_blank"><img class="news-photo"  src="news-p-photo/jugantor.com.jpg" alt=""></a></article>
-        <article class="news-p-row"><a href="https://www.kalerkantho.com"target="_blank"><img class="news-photo"  src="news-p-photo/kalerkantho.com.jpg" alt=""></a></article>
-        <article class="news-p-row"><a href="https://bangla.bdnews24.com"target="_blank"><img class="news-photo"  src="news-p-photo/bangla.bdnews24.com.jpg" alt=""></a></article>
-        <article class="news-p-row"><a href="https://samakal.com"target="_blank"><img class="news-photo"  src="news-p-photo/samakal.net.jpg" alt=""></a></article>
-        <article class="news-p-row"><a href=""target="_blank"><img class="news-photo"  src="" alt=""></a></article>
-    </div>
+<h4 class="">Bangla-news:</h4>
+<section class="Breaking-news"id="Breaking-news">
+<div class="news-container">
+    <article class="news-p-row"><a href="https://www.prothomalo.com"target="_blank"title="Click read"><img class="news-photo"  src="news-p-photo/prothom-alo.PNG" alt=""></a></article>
+    <article class="news-p-row"><a href="https://www.bd-pratidin.com"target="_blank"title="Click read"><img class="news-photo"  src="news-p-photo/bd-pratidin.com.jpg" alt=""></a></article>
+    <article class="news-p-row"><a href="https://dailynayadiganta.com"target="_blank"title="Click read"><img class="news-photo"  src="news-p-photo/dailynayadiganta.com.jpg" alt=""></a></article>
+    <article class="news-p-row"><a href="https://www.ittefaq.com.bd"target="_blank"title="Click read"><img class="news-photo"  src="news-p-photo/ittefaq.com.bd.jpg" alt=""></a></article>
+    <article class="news-p-row"><a href="https://www.jugantor.com"target="_blank"title="Click read"><img class="news-photo"  src="news-p-photo/jugantor.com.jpg" alt=""></a></article>
+    <article class="news-p-row"><a href="https://www.kalerkantho.com"target="_blank"title="Click read"><img class="news-photo"  src="news-p-photo/kalerkantho.com.jpg" alt=""></a></article>
+    <article class="news-p-row"><a href="https://bangla.bdnews24.com"target="_blank"title="Click read"><img class="news-photo"  src="news-p-photo/bangla.bdnews24.com.jpg" alt=""></a></article>
+    <article class="news-p-row"><a href="https://samakal.com"target="_blank"title="Click read"><img class="news-photo"  src="news-p-photo/samakal.net.jpg" alt=""></a></article>
+    <article class="news-p-row"><a href="https://www.jaijaidinbd.com"target="_blank"title="Click read"><img class="news-photo"  src="news-p-photo/jjdin.com.jpg" alt=""></a></article>
+</div>
 </section>
-<h2>Live-tv-channel-list:</h3>
-<section class="l-tv-container">
-    <div class="tv-content">
-        <article class="l-tv-row"><a href="https://shot.yacine-tv.tv/home90/"target="_blank">Football</a></article>
-        <article class="l-tv-row"><a href="https://bdixtv247.techpriyo.com"target="_blank">Cricket</a></article>
-        <article class="l-tv-row"><a href="">Bongo-tv</a></article>
-        <article class="l-tv-row"><a href="">Bios-cope-tv</a></article>
-        <article class="l-tv-row"><a href="https://yacine--tv.net"target="_blank">Fooyball tv 1</a></article>
-        <article class="l-tv-row"><a href="https://bdixtv24.com"target="_blank">Bdix-live-tv-24</a></article>
+<h4>Live-sport-list:</h4>
+<section class="l-tv-container"id="l-tv-container">
+<div class="tv-content">
+    <article class="l-tv-row"><a href="https://shot.yacine-tv.tv/home90/"target="_blank"title="Click see">Football</a></article>
+    <article class="l-tv-row"><a href="https://bdixtv247.techpriyo.com"target="_blank"title="Click see">Cricket</a></article>
+    <article class="l-tv-row"><a href=""title="Click see">Bongo-tv</a></article>
+    <article class="l-tv-row"><a href=""title="Click see">Bios-cope-tv</a></article>
+    <article class="l-tv-row"><a href="https://yacine--tv.net"target="_blank"title="Click see">Fooyball tv 1</a></article>
+    <article class="l-tv-row"><a href="https://bdixtv24.com"target="_blank"title="Click see">Bdix-live-tv-24</a></article>
+</div>
+</section>
+<h4>ALL-BD-TV-CHANNEL:</h4>
+<section class="bd-tv-c-list">
+    <div class="bd-tv-c-container">
+    <article class="bd-t-list-row"><a href="https://channel24bd.tv/live"target="_blank"><img src="bd-tv-pic/channel24bd.tv.jpg" alt="" class="bd-t-pic"></a></article>
+    <article class="bd-t-list-row"><a href="https://www.somoynews.tv/tv"target="_blank"><img src="bd-tv-pic/somoynews.tv.jpg" alt="" class="bd-t-pic"></a></article>
     </div>
 </section>
 </main>
-<div class="card">
+<footer class="card">
     <div class="card-header">
-      Quote
+      AHN_media link browser and enjoy 
     </div>
     <div class="card-body">
-      <blockquote class="blockquote mb-0">
-        <p>A well-known quote, contained in a blockquote element.</p>
-        <footer class="a-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-      </blockquote>
+        <article class="s-m-row"><a href="https://www.facebook.com/"target="_blank"><img src="scl-img/facb-pic.png" alt=""class="so-m-img"></a></article>
+        <article class="s-m-row"><a href="https://www.instagram.com/"target="_blank"><img src="scl-img/insg-pic.jpg" alt=""class="so-m-img"></a></article>
+        <article class="s-m-row"><a href="https://www.youtube.com/"target="_blank"><img src="scl-img/yutb-img.jpg" alt=""class="so-m-img"></a></article>
     </div>
-  </div>
+        <div class="a-footer">
+            <p>Release.v_4.10.2025</p>
+            <p>Update_Continue_19.04.2025</p>
+        </div>
+</footer>
 </body>
 </html>
