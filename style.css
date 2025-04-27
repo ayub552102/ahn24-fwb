@@ -40,6 +40,7 @@ position: relative;
 
  main{
     background-color: hsl(198, 25%, 92%);
+    min-height: calc(100vh - 100px);
 }
 nav ul li>a{
     display: block;
@@ -290,8 +291,6 @@ h4{
     align-items: center;
     text-align: center;
     background-color: lab(22.32% 35.45 23.72);
-    position: absolute;
-    bottom: 0;
 }
 .card-body{
     display: flex;
